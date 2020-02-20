@@ -14,9 +14,12 @@ var lampara= 35;
 var cantidad;
 var descuento;
 var cantidadTotal;
+var marca;
 
 cantidad = document.getElementById("Cantidad").value
 cantidad = parseInt(cantidad);
+
+marca = document.getElementById("Marca").value
 
 if (cantidad <= 5)
     {
@@ -36,5 +39,10 @@ if (cantidad >= 6)
 
     }
 
-if (cantidad = 5)
+switch (cantidad)
+    {
+
+
+
+    }   
 }
